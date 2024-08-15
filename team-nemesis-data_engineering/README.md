@@ -1,5 +1,3 @@
-# team-nemesis
-Sentimental analysis using Goggle Reviews
 # Team Nemesis - Data Engineering
 
 This part of project focuses on collecting and processing hotel data from Yelp API for sentiment analysis. The data engineering pipeline retrieves business information and reviews for hotels in various Canadian cities.
