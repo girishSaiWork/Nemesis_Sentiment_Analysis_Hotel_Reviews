@@ -1,8 +1,21 @@
+# team-nemesis
+Sentimental analysis using Goggle Reviews
 # Team Nemesis - Data Engineering
 
 This part of project focuses on collecting and processing hotel data from Yelp API for sentiment analysis. The data engineering pipeline retrieves business information and reviews for hotels in various Canadian cities.
 
 ## Project Structure
+
+![alt text](image.png)
+
+**### Description** : 
+ Abstract the Configuration files.
+ Constants : To access the configuration files data(API constants, S3 constants , RDS separately)
+ Operations : Separate folders have been created for the specific tasks. These operations folder contain the python files that defines operations of the specific module and scripts to execute  those methods in a flow to do the required takes.
+ Static : If there are any unchanged files that need to be in the program those files can be placed under static folder.
+
+
+**### Detailed Folder Structure** : 
 
 - `api_operations/`: Contains scripts for interacting with the Yelp API
   - `process.py`: Main script for retrieving business data and reviews
