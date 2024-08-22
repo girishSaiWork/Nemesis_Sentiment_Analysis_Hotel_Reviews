@@ -11,7 +11,8 @@ The goal of this project is to create a sentiment predictor and a services compa
 **Data Layer**: The segment of the project where the data collection, data cleaning and profiling of the data is being done.
 1)	In Data Layer, we are getting the hotel data using Yelp API using Python programming language 
 2)	In the next step, we are doing the data cleaning and filtering the required columns and store the data in Amazon S3 bucket.
-3)	In the third step , we are extracting the data from raw data and loading the data into Amazon RDS MqSQL database
+3)	In the third step , we are extracting the data from raw data and loading the data into Amazon RDS MqSQL database.
+
 **Business Layer**:
 We will fetch the data for performing the Machine model processing and data required for Dashboard in business layer using Power BI and Flask Server
 
