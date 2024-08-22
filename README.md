@@ -3,6 +3,19 @@ A customizable customer-oriented dashboard for hotel reviews sentiment analysis 
 ## Hotel Reviews Sentiment Analysis and Services Comparison
 The goal of this project is to create a sentiment predictor and a services comparison tool for hotel reviews, tailored to the needs of hotel guests. The tool will provide insights into which services are most highly rated by guests, allowing customers to make informed choices when choosing a hotel.
 
+![HLD](image.png)
+
+
+Data Layer: The segment of the project where the data collection, data cleaning and profiling of the data is being done.
+1)	In Data Layer, we are getting the hotel data using Yelp API using Python programming language 
+2)	In the next step, we are doing the data cleaning and filtering the required columns and store the data in Amazon S3 bucket.
+3)	In the third step , we are extracting the data from raw data and loading the data into Amazon RDS MqSQL database
+Business Layer:
+We will fetch the data for performing the Machine model processing and data required for Dashboard in business layer using Power BI and Flask Server
+
+Presentation Layer:
+For developing web pages we are using Bootstrap , HTML and CSS.
+
 ## Installation
 
 
